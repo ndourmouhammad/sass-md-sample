@@ -1,0 +1,13 @@
+.DS_sotre
+venv/
+#Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+
+
+# Distributions et packaging
+.Python
+build/
