@@ -1,10 +1,5 @@
-import pathlib
 from django.shortcuts import render
 from visits.models import PageVisit
-
-this_dir = pathlib.Path(__file__).resolve().parent
-
-
 
 def home_page_view(request ,*args, **kwargs):
     qs = PageVisit.objects.all()
