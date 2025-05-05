@@ -11,3 +11,5 @@ __pycache__/
 # Distributions et packaging
 .Python
 build/
+
+.env
